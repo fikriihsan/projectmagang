@@ -28,7 +28,7 @@
       <div class="Header" id="Home">
          <nav class="navbar fixed-top">
             <div class="container">
-               <a class="navbar-brand" href="#">Penggajian</a>
+               <a class="navbar-brand" href="#">QUICKTEST HR Payroll</a>
                <div class="collapse_menu deactive">
                   <i class="fa fa-bars" aria-hidden="true"></i>
                   <i class="fa fa-times" aria-hidden="true"></i>
@@ -37,11 +37,9 @@
                         <a class="nav-link" href="#Home">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#Tentang">Informassi Website</a>
+                        <a class="nav-link" href="#Tentang">Tentang Website</a>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#AboutMe">About Me</a>
-                     </li>
+                    
                      <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('login');?>">Login</a>
                      </li>
@@ -55,9 +53,9 @@
                   <div class="col">
                      <div class="box">
                         <div>
-                           <h2>Penggajian <br> Karyawan</h2>
+                           <h1>Penggajian <br> Karyawan</h1>
                         </div>
-                        <p>aplikasi ini dibuat untuk membantu perusahaan dalam proses penggajian karyawan</p>
+                        <p>Aplikasi payroll untuk memudahkan perusahaan dalam melakukan penggajian</p>
                      </div>
                   </div>
                   <div class="col headerImg" style="background-image: url('<?php echo base_url()?>assets/img/payroll.svg');"></div>
@@ -216,49 +214,13 @@
          </div>
       </div>
       <!-- Team Section -->
-      <div class="Team" id="AboutMe">
-         <div class="Section">
-            <div class="text-center">
-               <h2>About Me</h2>
-               <div class="subHeading">
-                  Berikut informasi singkat tentang pembuat website
-               </div>
-               <br>
-            </div>
-            <div class="content">
-               <div class="team row">
-                  <div class="team-memeber col-md-6 col-lg-4 col-xl-3">
-                     <div class="card">
-                        <div class="TopImg">
-                           <img src="<?php echo base_url(); ?>assets/img/me.png" class="rounded-circle w-100 d-block">
-                        </div>
-                        <div class="TeamInfo text-center">
-                           <div class="Name">Dwi Febi Fauzi</div>
-                           <div class="Job">UI & UX Designer</div>
-                           <div class="social_links">
-                              <div class="social">
-                                 <a class="" href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
-                              </div>
-                              <div class="social">
-                                 <a class="" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                              </div>
-                              <div class="social">
-                                 <a class="" href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      
       <!-- Footer Section -->
       <div class="Footer" id="Footer">
          <div class="container">
             <div class="row">
                <div class="col-12 text-center my-3">
-                  Copyright &copy; Dwi Febi Fauzi | Penggajian 2020 - All Rights Reserved
+                  Copyright &copy; Quicktest Beta Payroll
                </div>
             </div>
          </div>
