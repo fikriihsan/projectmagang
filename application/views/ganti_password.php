@@ -11,18 +11,19 @@
   		<form method="POST" action="<?php echo base_url('ganti_password/ganti_password_aksi')?>">
   			
   			<div class="form-grup">
-  				<label>Password Baru</label>
+  				<label>New Password</label>
   				<input type="password" name="passBaru" class="form-control">
   				<?php echo form_error('paasBaru', '<div class="text-small text-danger"> </div>')?>
   			</div>
 
   			<div class="form-grup">
-  				<label>Ulangi Password Baru</label>
+  				<label>Re-type New Password</label>
   				<input type="password" name="ulangPass" class="form-control">
   				<?php echo form_error('ulangPass', '<div class="text-small text-danger"> </div>')?>
   			</div>
   			<br>
-  			<button type="submint" class="btn btn-success">Simpan</button>
+  			<button type="submint" class="btn btn-success">Submit</button>
+			  <a href="admin/dashboard">Cancel</a>
   		</form>
   	</div>
   </div>

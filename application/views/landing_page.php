@@ -37,7 +37,10 @@
                         <a class="nav-link" href="#Home">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#Tentang">Tentang Website</a>
+                        <a class="nav-link" href="#Tentang">About Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#company">Company Profile</a>
                      </li>
                     
                      <li class="nav-item">
@@ -213,7 +216,23 @@
             </div>
          </div>
       </div>
-      <!-- Team Section -->
+
+      <div class="Service" id="company">
+         <div class="Section">
+            <div class="text-center">
+               <h2>Company Profile</h2>
+               <div class="subHeading">
+               Layanan dari PT Quicktest Laboratorium Indonesia hadir untuk memberikan pelayanan kesehatan secara optimal kepada individu,
+                kelompok atau perusahaan dalam mendeteksi virus Covid-19 dengan dukungan teknologi RT-PCR model terbaru. Dengan keunikan yang dimiliki,
+                 produk ini memiliki keunggulan dibandingkan produk lain yang serupa. Hal ini disebabkan oleh akurasi yang dihasilkan sangatlah baik dan menjadi produk yang lebih akurat dibandingkan dengan produk lain.
+                  RT PCR & Automated NA Extraction merupakan alat test Covid-19 dengan menggunakan metode swab test memiliki akurasi lebih dari 95% dengan estimasi waktu kurang dari 120 menit untuk mendapatkan hasil setelah 
+                  pengambilan sampel dari pasien serta dapat melakakukan 1400 test dalam satu hari per 1 unit RT-PCR.
+               </div>
+            </div>
+
+            
+      </div>
+ 
       
       <!-- Footer Section -->
       <div class="Footer" id="Footer">

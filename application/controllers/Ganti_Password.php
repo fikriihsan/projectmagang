@@ -4,7 +4,7 @@ class Ganti_Password extends CI_Controller {
 
 	public function index() 
 	{
-		$data['title'] = "Form Ganti Password";
+		$data['title'] = "Change Password";
 
 		$this->load->view('template_admin/header',$data);
 		$this->load->view('template_admin/sidebar');
@@ -32,7 +32,7 @@ class Ganti_Password extends CI_Controller {
 				</div>');
 			redirect('login');
 		}else{
-			$data['title'] = "Form Ganti Password";
+			$data['title'] = "Change Password";
 
 			$this->load->view('template_admin/header',$data);
 			$this->load->view('template_admin/sidebar');

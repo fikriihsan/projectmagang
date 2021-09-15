@@ -29,8 +29,9 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="<?php echo base_url('admin/data_pegawai') ?>">Data Pegawai</a>
-            <a class="collapse-item" href="<?php echo base_url('admin/data_jabatan') ?>">Data Jabatan</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/data_pegawai') ?>">Employees Data</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/data_jabatan') ?>">Position Data</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/') ?>">Standard Working Hour</a>
           </div>
         </div>
       </li>
@@ -50,6 +51,25 @@
         </div>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePayroll" aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-money-bill-alt" aria-hidden="true"></i>
+          <span>Payroll</span>
+        </a>
+        <div id="collapsePayroll" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="<?php echo base_url('admin/data_absensi') ?>">Payroll</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/potongan_gaji') ?>">Deduction</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/data_penggajian') ?>">Overtime</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/data_penggajian') ?>">Allowance</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/data_penggajian') ?>">BPJS</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/data_penggajian') ?>">Reimburse</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/data_penggajian') ?>">Allowance</a>
+            <a class="collapse-item" href="<?php echo base_url('admin/data_penggajian') ?>">CutOff</a>
+          </div>
+        </div>
+      </li>
+
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
@@ -65,13 +85,36 @@
         </div>
       </li>
 
-      <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('ganti_password') ?>">
-          <i class="fas fa-fw fa-lock"></i>
-          <span>Ubah Password</span></a>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseMessage" aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-inbox" aria-hidden="true"></i>
+          <span>Message</span>
+        </a>
+        <div id="collapseMessage" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Inbox</a>
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Leave App</a>
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Overtime App</a>
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Reimbursement App</a>
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Attandance App</a>
+          </div>
+        </div>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSetting" aria-expanded="true" aria-controls="collapsePages">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Setting</span>
+        </a>
+        <div id="collapseSetting" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="<?php echo base_url('admin/laporan_gaji') ?>">Profile</a>
+            <a class="collapse-item" href="<?php echo base_url('ganti_password') ?>">Change Password</a>
+          </div>
+        </div>
+      </li>
+      <!-- Nav Item - Charts -->
+     
       <!-- Nav Item - Tables -->
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('login/logout')?>">

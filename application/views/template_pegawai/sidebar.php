@@ -21,6 +21,33 @@
           <span>Dashboard</span></a>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAttendance" aria-expanded="true" aria-controls="collapsePages">
+          <i class="fas fa-fw fa-qrcode"></i>
+          <span>Attendance</span>
+        </a>
+        <div id="collapseAttendance" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Attendance</a>
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Attendance Acceptation</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseForm" aria-expanded="true" aria-controls="collapsePages">
+          <i class="fas fa-fw fa-file" aria-hidden="true"></i>
+          <span>Application Form</span>
+        </a>
+        <div id="collapseForm" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Leave App</a>
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Overtime App</a>
+            <a class="collapse-item" href="<?php echo base_url('') ?>">Reimbursement App</a>
+          </div>
+        </div>
+      </li>
+
 
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('pegawai/data_gaji') ?>">
@@ -28,12 +55,20 @@
           <span>Data Gaji</span></a>
       </li>
 
-      <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('pegawai/ganti_password') ?>">
-          <i class="fas fa-fw fa-lock"></i>
-          <span>Ubah Password</span></a>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSetting" aria-expanded="true" aria-controls="collapsePages">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Setting</span>
+        </a>
+        <div id="collapseSetting" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="<?php echo base_url('admin/laporan_gaji') ?>">Profile</a>
+            <a class="collapse-item" href="<?php echo base_url('pegawai/ganti_password') ?>">Change Password</a>
+          </div>
+        </div>
       </li>
+
+   
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
