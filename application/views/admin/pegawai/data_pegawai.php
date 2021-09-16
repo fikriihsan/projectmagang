@@ -15,11 +15,18 @@
            <tr>
               <th class="text-center">No</th>
               <th class="text-center">NIK</th>
-              <th class="text-center">Nama Pegawai</th>
-              <th class="text-center">Jenis Kelamin</th>
-              <th class="text-center">Jabatan</th>
-              <th class="text-center">Tanggal Masuk</th>
+              <th class="text-center">Full Name</th>
+              <th class="text-center">Date of Birth</th>
+              <th class="text-center">Sex</th>
+              <th class="text-center">Religion</th>
+              <th class="text-center">Address</th>
+              <th class="text-center">Phone</th>
+              <th class="text-center">Email</th>
+              <th class="text-center">Join Date</th>
+              <th class="text-center">Divisi</th>
+              <th class="text-center">Position</th>
               <th class="text-center">Status</th>
+              <th class="text-center">Placement</th>
               <th class="text-center">Hak Akses</th>
               <th class="text-center">Photo</th>
               <th class="text-center">Actions</th>
