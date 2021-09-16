@@ -38,10 +38,17 @@
               <td class="text-center"><?php echo $no++ ?></td>
               <td class="text-center"><?php echo $p->nik ?></td>
               <td class="text-center"><?php echo $p->nama_pegawai ?></td>
+              <td class="text-center"><?php echo $p->nama_pegawai ?></td> <!-- tabel buat nampilin tanggal lahir -->
               <td class="text-center"><?php echo $p->jenis_kelamin ?></td>
-              <td class="text-center"><?php echo $p->jabatan ?></td>
+              <td class="text-center"><?php echo $p->jenis_kelamin ?></td> <!-- tabel buat nampilin agama --> 
+              <td class="text-center"><?php echo $p->jenis_kelamin ?></td> <!-- tabel buat nampilin alamat -->
+              <td class="text-center"><?php echo $p->jenis_kelamin ?></td> <!-- tabel buat nampilin no telp -->
+              <td class="text-center"><?php echo $p->jenis_kelamin ?></td> <!-- tabel buat nampilin email -->
               <td class="text-center"><?php echo $p->tanggal_masuk ?></td>
+              <td class="text-center"><?php echo $p->jabatan ?></td> <!-- tabel buat nampilin divisi -->
+              <td class="text-center"><?php echo $p->jabatan ?></td>
               <td class="text-center"><?php echo $p->status ?></td>
+              <td class="text-center"><?php echo $p->status ?></td> <!-- tabel buat nampilin penempatan kerja -->
               <?php if($p->hak_akses=='1') { ?>
                 <td>Admin</td>
                 <?php } else { ?>
