@@ -14,7 +14,7 @@
          <thead class="thead-dark">
            <tr>
               <th class="text-center">No</th>
-              <th class="text-center">NIK</th>
+              <th class="text-center">NIP</th>
               <th class="text-center">Full Name</th>
               <th class="text-center">Date of Birth</th>
               <th class="text-center">Sex</th>
